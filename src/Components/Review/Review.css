@@ -1,0 +1,68 @@
+.testi {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.25)), url(https://www.kbrconstructionanddevelopers.com/chopper/images/heliback2.jpg);
+    padding: 50px 0px;
+    background-attachment: fixed;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 992px){
+        .container{
+            max-width: 960px;
+        }
+}
+@media (min-width: 768px) {
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width: 576px) {
+    .container{
+        max-width: 540px;
+    }
+}
+.container{
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.testi h2 {
+    color: rgb(232, 230, 227);
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+@media (min-width: 1200px) {
+    .h2{
+        font-size: 2rem;
+    }
+}
+.testi p {
+    color: rgb(232, 230, 227);
+    padding-bottom: 0px;
+    font-weight: 300;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
+
+.responsive {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+ .slick-slider {
+     -webkit-tap-highlight-color: transparent;
+ }
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+}

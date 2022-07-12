@@ -1,0 +1,9 @@
+#FooterbarImg {
+    /*position: absolute;*/
+    /*cursor: pointer;*/
+    max-height:7rem;
+}
+
+li{
+    padding-bottom:10px;
+}
