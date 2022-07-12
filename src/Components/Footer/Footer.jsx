@@ -1,26 +1,23 @@
 import React from 'react';
 import './Footer.scss';
+import './Footer.css'
+
 const Footer = () => {
   return (
     <div className="footer">
       <div className="right">
         <div className="aboutIndia">
           <div className="about">
-            <h1 className="head1">Incredible!ndia</h1>
+            <img src="https://www.himalayanheli.com/images/loader-logo.png" alt="logo" id="FooterbarImg" />
           </div>
           <div className="discription">
             <br></br>
             <br></br>
-            <h2 className="head2">About India</h2>
+            <h2 className="head2">About Himalayan Heli Services Pvt Ltd. </h2>
             <div>
               <br></br>
               <div className="theory">
-                India has a myriad of landscapes, great heritage and culture,
-                varied flora and fauna. The country is the most preferred
-                tourist destinations for tourists from all across the world for
-                its picturesque landscapes, spectacular waterfalls, habitat of
-                the country's largest tiger reserve and home to the warmest
-                people on earth.
+                Himalayan Heli Services was established in 1998 by Mr. Harsh Vardhan Sharma and Mr. Wangchuk Shamshu, as one of the first Helicopter services provider of Heli skiing & pilgrimage heli-services in India.
               </div>
             </div>
           </div>
@@ -28,347 +25,107 @@ const Footer = () => {
         <div className="tag">
           <div className="stateTourism">
             <div className="heading">
-              <h3 className="head3">State Tourism Websites</h3>
+              <h3 className="head3">Adventure Activities</h3>
               <div className="line"></div>
             </div>
             <div>
               <br></br>
-              <br></br>
+              {/*<br></br>*/}
               <div className="ul-li">
                 <ul className="inline">
                   <div className="box">
                     <li>
                       <a
-                        href="https://tourism.ap.gov.in/"
-                        title="Andhra Pradesh"
+                        href=""
+                        title=""
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Andhra Pradesh{' '}
+                        Everest Mountain Flights
                       </a>
                     </li>
                   </div>
                   <div className="box">
                     <li>
                       <a
-                        href="http://www.arunachaltourism.com"
-                        title="Arunachal Pradesh"
+                        href=""
+                        title=""
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Arunachal Pradesh{' '}
+                        Mountain Biking
                       </a>
                     </li>
                   </div>
                   <div className="box">
                     <li>
                       <a
-                        href="https://tourism.assam.gov.in/"
-                        title="Assam"
+                        href=""
+                        title=""
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Assam{' '}
+                        Bardia National Park
                       </a>
                     </li>
                   </div>
                   <div className="box">
                     <li>
                       <a
-                        href="http://www.bihartourism.gov.in/"
-                        title="Bihar"
+                        href=""
+                        title=""
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Bihar{' '}
+                        Chitwan National Park
                       </a>
                     </li>
                   </div>
                   <div className="box">
                     <li>
                       <a
-                        href="http://cggovttourism.ddns.net/"
-                        title="Chhattisgarh"
+                        href=""
+                        title=""
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Chhattisgarh{' '}
+                        Everest Region Trek
                       </a>
                     </li>
                   </div>
                   <div className="box">
                     <li>
                       <a
-                        href="https://goa-tourism.com/"
-                        title="Goa"
+                        href=""
+                        title=""
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Goa{' '}
+                        Annapurna Region Trek
                       </a>
                     </li>
                   </div>
                   <div className="box">
                     <li>
                       <a
-                        href="http://www.gujarattourism.com/"
-                        title="Gujarat"
+                        href=""
+                        title=""
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Gujarat{' '}
+                        City Tour
                       </a>
                     </li>
                   </div>
                   <div className="box">
                     <li>
                       <a
-                        href="http://haryanatourism.gov.in/"
-                        title="Haryana"
+                        href=""
+                        title=""
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Haryana{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="https://himachaltourism.gov.in/"
-                        title="Himachal Pradesh"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Himachal Pradesh{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="https://jharkhandtourism.gov.in/"
-                        title="Jharkhand"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Jharkhand{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="http://www.karnatakatourism.org/"
-                        title="Karnataka"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Karnataka{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="https://www.keralatourism.org/"
-                        title="Kerala"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Kerala{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="http://www.mptourism.com/"
-                        title="Madhya Pradesh"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Madhya Pradesh{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="https://www.maharashtratourism.gov.in/"
-                        title="Maharashtra"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Maharashtra{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="http://manipurtourism.gov.in/"
-                        title="Manipur"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Manipur{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="http://megtourism.gov.in/"
-                        title="Meghalaya"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Meghalaya{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="https://tourism.mizoram.gov.in/"
-                        title="Mizoram"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Mizoram{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="http://tourism.nagaland.gov.in/"
-                        title="Nagaland"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Nagaland{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="http://odishatourism.gov.in/"
-                        title="Odisha"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Odisha{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="http://punjabtourism.gov.in"
-                        title="Punjab"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Punjab{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="http://tourism.rajasthan.gov.in/"
-                        title="Rajasthan"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Rajasthan{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="http://www.sikkimtourism.gov.in"
-                        title="Sikkim"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Sikkim{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="http://www.tamilnadutourism.org/"
-                        title="Tamil Nadu"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Tamil Nadu{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="https://www.telanganatourism.gov.in/"
-                        title="Telangana"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Telangana{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="http://tripuratourism.gov.in/"
-                        title="Tripura"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Tripura{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="http://www.uptourism.gov.in/"
-                        title="Uttar Pradesh"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Uttar Pradesh{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="https://uttarakhandtourism.gov.in/"
-                        title="Uttarakhand"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Uttarakhand{' '}
-                      </a>
-                    </li>
-                  </div>
-                  <div className="box">
-                    <li>
-                      <a
-                        href="http://www.wbtourismgov.in/"
-                        title="West Bengal"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        West Bengal{' '}
+                        Langtang Region Trek
                       </a>
                     </li>
                   </div>
@@ -376,11 +133,121 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="utTourism">
+          <div className="stateTourism">
             <div className="heading">
-              <h3 className="head3">UT Tourism Websites</h3>
+              <h3 className="head3">Adventure Activities</h3>
               <div className="line"></div>
+            </div>
+            <div>
               <br></br>
+              {/*<br></br>*/}
+              <div className="ul-li">
+                <ul className="inline">
+                  <div className="box">
+                    <li>
+                      <a
+                        href=""
+                        title=""
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Why Us?
+                      </a>
+                    </li>
+                  </div>
+                  <div className="box">
+                    <li>
+                      <a
+                        href=""
+                        title=""
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Booking Procedure
+                      </a>
+                    </li>
+                  </div>
+                  <div className="box">
+                    <li>
+                      <a
+                        href=""
+                        title=""
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Google
+                      </a>
+                    </li>
+                  </div>
+                  <div className="box">
+                    <li>
+                      <a
+                        href=""
+                        title=""
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Travel News
+                      </a>
+                    </li>
+                  </div>
+                  <div className="box">
+                    <li>
+                      <a
+                        href=""
+                        title=""
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Legal Documents
+                      </a>
+                    </li>
+                  </div>
+                  <div className="box">
+                    <li>
+                      <a
+                        href=""
+                        title=""
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Gallery
+                      </a>
+                    </li>
+                  </div>
+                  <div className="box">
+                    <li>
+                      <a
+                        href=""
+                        title=""
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Fixed Departure
+                      </a>
+                    </li>
+                  </div>
+                  <div className="box">
+                    <li>
+                      <a
+                        href=""
+                        title=""
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Pay Online
+                      </a>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="Corportate">
+            <div className="heading">
+              <h3 className="head3">Corportate</h3>
+              <div className="line"></div>
+              {/*<br></br>*/}
               <br></br>
             </div>
             <div>
@@ -388,108 +255,96 @@ const Footer = () => {
                 <div className="box">
                   <li>
                     <a
-                      href="https://www.andaman.gov.in/"
-                      title="Andaman and Nicobar"
+                      href=""
+                      title=""
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Andaman and Nicobar{' '}
+                      About US
                     </a>
                   </li>
                 </div>
                 <div className="box">
                   <li>
                     <a
-                      href="http://chandigarhtourism.gov.in/"
-                      title="Chandigarh"
+                      href=""
+                      title=""
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Chandigarh{' '}
+                      Trekking Guide & Team
                     </a>
                   </li>
                 </div>
                 <div className="box">
                   <li>
                     <a
-                      href="https://www.tourismdddnh.in"
-                      title="Dadra and Nagar Haveli"
+                      href=""
+                      title=""
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Dadra and Nagar Haveli{' '}
+                      Legal Documents
                     </a>
                   </li>
                 </div>
                 <div className="box">
                   <li>
                     <a
-                      href="https://www.tourismdddnh.in"
-                      title="Daman and Diu"
+                      href=""
+                      title=""
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Daman and Diu{' '}
+                      Terms & Conditions
                     </a>
                   </li>
                 </div>
                 <div className="box">
                   <li>
                     <a
-                      href="http://www.delhitourism.gov.in"
-                      title="Delhi"
+                      href=""
+                      title=""
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Delhi{' '}
+                      Blog
                     </a>
                   </li>
                 </div>
                 <div className="box">
                   <li>
                     <a
-                      href="http://www.jktourism.jk.gov.in/"
-                      title="Jammu and Kashmir"
+                      href=""
+                      title=""
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Jammu and Kashmir{' '}
+                      Travel Informations
                     </a>
                   </li>
                 </div>
                 <div className="box">
                   <li>
                     <a
-                      href="http://www.jktourism.jk.gov.in/"
-                      title="Ladakh"
+                      href=""
+                      title=""
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Ladakh{' '}
+                      Testimonials
                     </a>
                   </li>
                 </div>
                 <div className="box">
                   <li>
                     <a
-                      href="https://www.lakshadweeptourism.com/"
-                      title="Lakshadweep"
+                      href=""
+                      title=""
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Lakshadweep{' '}
-                    </a>
-                  </li>
-                </div>
-                <div className="box">
-                  <li>
-                    <a
-                      href="http://www.pondytourism.in/"
-                      title="Puducherry"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Puducherry{' '}
+                      Contact Us
                     </a>
                   </li>
                 </div>

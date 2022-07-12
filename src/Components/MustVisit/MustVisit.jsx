@@ -24,7 +24,7 @@ const datas = [
   },
   {
     image:
-      'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/home/orignial.jpg/jcr:content/renditions/cq5dam.web.256.256.jpeg',
+      'https://www.incredibleindia.org/content/dam/incredibleindia/images/places/munnar/munnar-pampadum-shola-national-park-20.jpg/jcr:content/renditions/cq5dam.web.256.256.jpeg',
   },
   {
     image:
@@ -41,40 +41,40 @@ const datas = [
 ];
 const text = [
   {
-    title: 'Thrissur',
-    para: 'Often referred to as the cultural capital of Kerala, Thrissur is a centre poi...',
+    title: 'Annapurna',
+    para: 'It is a long established fact that a reader will ...',
   },
   {
-    title: 'Goa',
-    para: "The pocket-sized paradise of Goa is a traveller's dream. Sun...",
+    title: 'Annapurna',
+    para: 'It is a long established fact that a reader will ...',
   },
   {
-    title: 'Gokarna',
-    para: 'With stunning beaches, legendary temples and offering...',
+    title: 'Annapurna',
+    para: 'It is a long established fact that a reader will ...',
   },
   {
-    title: 'Kochi',
-    para: 'A vibrant potpourri of art, culture, food, carnivals and festivals...',
+    title: 'Annapurna',
+    para: 'It is a long established fact that a reader will ...',
   },
   {
-    title: 'Bekal',
-    para: 'An emerald gem set amidst honey-hued beaches, pristine...',
+    title: 'Annapurna',
+    para: 'It is a long established fact that a reader will ...',
   },
   {
-    title: 'Statue of unity',
-    para: 'An emerald gem set amidst honey-hued beaches, pristine...',
+    title: 'Annapurna',
+    para: 'It is a long established fact that a reader will ...',
   },
   {
-    title: 'Munnar',
-    para: 'A lush carpet of rolling green, interrupted by low rises...',
+    title: 'Annapurna',
+    para: 'It is a long established fact that a reader will ...',
   },
   {
-    title: 'Shilong',
-    para: 'Colonial-era charm, a landscape of rolling green and...',
+    title: 'Annapurna',
+    para: 'It is a long established fact that a reader will ...',
   },
   {
-    title: 'Wayanad',
-    para: 'A coffer of coffee, cardamom and tea plantations, which...',
+    title: 'Annapurna',
+    para: 'It is a long established fact that a reader will ...',
   },
 ];
 
@@ -108,10 +108,9 @@ export default function MustVisit() {
   return (
     <>
       <div className="MustVisitInfo">
-        <h1 className="header">Must Visit Destinations</h1>
+        <h1 className="header text-[2em] font-extrabold">Adventure Activites</h1>
         <p>
-          From historical cities to natural splendours, come see the best of
-          India
+          From historical cities to natural splendours, come and have the best experience in Nepal
         </p>
       </div>
       <div className="must-visit">

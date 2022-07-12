@@ -44,24 +44,25 @@
 
 .inline {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  //flex-wrap: wrap;
 }
-.box {
-  width: 190px;
-  height: 25px;
-}
+//.box {
+//  width: 190px;
+//  height: 25px;
+//}
 .stateTourism {
   width: 600px;
 }
 a {
-  color: blueviolet;
+  color: blue;
   font-weight: 600;
   text-decoration: none;
 }
-a:hover {
-  color: red;
-}
+//a:hover {
+//  color: black;
+//}
 .stateTourism,
-.utTourism {
+.Corportate {
   color: black;
 }

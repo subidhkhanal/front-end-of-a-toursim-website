@@ -1,57 +1,38 @@
 import React from 'react';
-import { data } from './data';
-import './BigCarousel.scss';
-import { useState } from 'react';
-
-import icons from '../../utils/getIcons.js';
+import'./BigCarousel.css'
+import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
 
 const BigCarousel = () => {
-  const [curr, setCurr] = useState(0);
-
-  const nextSlide = () => {
-    setCurr(curr === data.length - 1 ? 0 : curr + 1);
-  };
-
-  const prevSlide = () => {
-    setCurr(curr === 0 ? data.length - 1 : curr - 1);
-  };
-
-  // setInterval(() => {
-  //   nextSlide();
-  // }, 2000);
 
   return (
-    <div className="slider">
-      <h1>Popular in India</h1>
-      <p>
-        India is a home to the finest architectural heritage, serene ghats,
-        spectacular landscapes and largest tiger reserve
-      </p>
-      <img
-        src={icons.left}
-        className="left-arrow"
-        height={30}
-        width={30}
-        alt="left"
-        onClick={() => nextSlide()}
-      />
-      <img
-        src={icons.right}
-        className="right-arrow"
-        height={30}
-        width={30}
-        alt="left"
-        onClick={() => prevSlide()}
-      />
-      {data.map((val, idx) => {
-        return (
-          <div key={idx} className={idx === curr ? 'slide active' : 'slide'}>
-            {idx === curr && (
-              <img className="image" src={val.src} alt="img slider" />
-            )}
+    <div className="welcome">
+      <div className="container">
+        <div className="row">
+          <div className="bigcarousel__col-md-12">
+            <div className="title">
+              <img className="max-h-32" src="https://www.himalayanheli.com/images/loader-logo.png" alt="Company-Logo"/>
+                <div className="he1">
+                  <h1 className="heading"> Himalayan Heli Services</h1>
+                  <h3>“HEAVEN IS A MYTH, BUT NEPAL IS REAL".</h3>
+                </div>
+            </div>
           </div>
-        );
-      })}
+          <div className="bigcarousel__col-md-12">
+            <p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation  ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute </p>
+            <br/>
+            <p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute </p>
+            <div className="link">
+              <button>Read More  <DoubleArrowIcon  className="mb-1.5"/></button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

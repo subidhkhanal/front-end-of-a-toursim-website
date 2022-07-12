@@ -1,76 +1,76 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Navbar.scss';
-
+import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 
-import Dropdown1 from './Dropdown1';
-import Dropdown2 from './Dropdown2';
-import Dropdown3 from './Dropdown3';
-import Dropdown4 from './Dropdown4';
 
 const Navbar = () => {
-  const [dropdown, setDropdown] = useState(false);
-  const [dropdown2, setDropdown2] = useState(false);
-  const [dropdown3, setDropdown3] = useState(false);
-  const [dropdown4, setDropdown4] = useState(false);
+  const[show,setShow]=useState(false)
+
+  const transitionNavBar= () =>{
+    if(window.scrollY>500){
+      setShow(true)
+    }
+    else{
+      setShow(false)
+    }
+  }
+  useEffect(() =>{
+    window.addEventListener("scroll",transitionNavBar)
+    return() => window.removeEventListener("scroll",transitionNavBar)
+  },[])
 
   return (
-    <div className="nav-bar">
+    <div className={`nav-bar ${show && "nav_black"}`}>
       <div className="first-menu">
         <ul className="nav-menu">
+          <li className="without-any-link">Home</li>
           <div
             className="des items"
-            onMouseEnter={() => setDropdown(true)}
-            onMouseLeave={() => setDropdown(false)}
           >
             <li>
-              Destination <FontAwesomeIcon icon={faCaretDown} />
-              {dropdown && <Dropdown1 />}
+              Trekking <FontAwesomeIcon icon={faCaretDown} />
             </li>
           </div>
           <div
             className="exp items"
-            onMouseEnter={() => setDropdown2(true)}
-            onMouseLeave={() => setDropdown2(false)}
           >
             <li>
-              Experience
+              Tour Package
               <FontAwesomeIcon icon={faCaretDown} />
-              {dropdown2 && <Dropdown2 />}
+            </li>
+          </div>
+          <div
+            className="gallery items"
+          >
+            <li>
+              Day Tour
+              <FontAwesomeIcon icon={faCaretDown} />
             </li>
           </div>
         </ul>
       </div>
+
       <img
-        src="https://www.incredibleindia.org/content/dam/incredible-india-v2/images/inc-india-logo.svg"
+        className="cursor-pointer"
+        src="https://www.himalayanheli.com/images/loader-logo.png"
         alt="logo"
         id="navbarImg"
       />
       <div className="third-menu">
         <ul className="nav-menu">
           <div
-            className="gallery items"
-            onMouseEnter={() => setDropdown3(true)}
-            onMouseLeave={() => setDropdown3(false)}
-          >
-            <li>
-              Gallery
-              <FontAwesomeIcon icon={faCaretDown} />
-              {dropdown3 && <Dropdown3 />}
-            </li>
-          </div>
-          <div
             className="trav items"
-            onMouseEnter={() => setDropdown4(true)}
-            onMouseLeave={() => setDropdown4(false)}
           >
             <li>
-              Travel
+              Peak Climbing
               <FontAwesomeIcon icon={faCaretDown} />
-              {dropdown4 && <Dropdown4 />}
             </li>
           </div>
+          <li className="without-any-link"> Blog</li>
+          <li className="without-any-link"> About</li>
+          <li className="without-any-link"> Contact Us</li>
         </ul>
       </div>
     </div>

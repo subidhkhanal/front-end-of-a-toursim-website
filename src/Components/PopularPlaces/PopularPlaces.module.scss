@@ -1,7 +1,7 @@
 .cardcontainer {
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   justify-items: center;
 }
 
@@ -10,4 +10,5 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 20px;
 }

@@ -1,5 +1,7 @@
 import React from 'react';
 import './experience.scss';
+import './experience.css'
+
 const Experience = () => {
   const ExpCard = ({ exp }) => {
     return (
@@ -13,42 +15,42 @@ const Experience = () => {
   };
   const demoData = [
     {
-      name: 'Art',
+      name: 'Type of Arts in Nepal',
       url: './assets/art.jpg',
     },
     {
-      name: 'Heritage',
+      name: 'Heritage Sites in Nepal',
       url: './assets/heritage.jpg',
     },
     {
-      name: 'Adventure',
+      name: 'Paragliding Places in Nepal',
       url: './assets/adventure.jpg',
     },
     {
-      name: 'Museum',
+      name: 'Top 10 Museum in World',
       url: './assets/museum.jpg',
     },
     {
-      name: 'Spiritual',
+      name: 'Spiritual Enlightenment',
       url: './assets/spiritual.jpg',
     },
     {
-      name: 'Luxury',
+      name: 'Luxurious Places in Nepal',
       url: './assets/luxury.jpg',
     },
     {
-      name: 'Food and Cuisine',
+      name: 'Food and Cuisine in Nepal',
       url: './assets/foodAndCuisine.jpg',
     },
     {
-      name: 'Nature and Wildlife',
+      name: 'Nature and Wildlife in Nepal',
       url: './assets/natureandwildlife.jpg',
     },
   ];
   return (
     <div className="experience">
-      <h1>Immersive Experience</h1>
-      <p>In the land of opulence, let loose and discover yourself</p>
+      <h1 className="text-[2em] font-bold">Blog</h1>
+      <p>Places of attractions, travel tips and activities to do in and around Nepal.<a href="" className="text-blue-500">Visit Our Blog</a></p>
       <div className="experienceCards">
         {demoData.map((exp, index) => (
           <ExpCard exp={exp} key={index} />

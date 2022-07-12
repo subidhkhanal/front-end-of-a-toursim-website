@@ -45,7 +45,7 @@ export const PopularTrips = () => {
 
   return (
     <div className="popular-trips">
-      <h1 style={{ textAlign: 'center', margin: '2%' }}>Popular Trips</h1>
+      <h1 style={{ textAlign: 'center', margin: '2%' }} className="text-[2em] font-bold">Popular Destination</h1>
       <div className="main">
         <div className="btn">
           {tripTypes.map((tripTypes, key) => {
