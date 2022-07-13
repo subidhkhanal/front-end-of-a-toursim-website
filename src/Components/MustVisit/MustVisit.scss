@@ -8,7 +8,13 @@
   display: flex;
   background-color: whitesmoke;
   height: 500px;
-  width: 100%;
+  margin-left:auto;
+  margin-right:50px;
+}
+@media (min-width: 886px) {
+  .must-visit {
+    margin-right: 50px;
+  }
 }
 .nextKey {
   position: relative;
@@ -21,7 +27,7 @@
 .prevKey {
   position: relative;
   top: 34%;
-  left: 6%;
+  left: 4%;
   transform: translateY(-50%);
   width: 40px;
   height: 40px;
@@ -33,19 +39,28 @@
   padding: 2%;
   pointer-events: none;
   margin: 3%;
-  height: 80%;
+  //height: 80%;
   box-sizing: border-box;
   box-shadow: -3px 3px 5px 0px rgba(189, 189, 189, 0.75),
     3px -3px 5px 0px rgba(189, 189, 189, 0.75);
 }
 
-.must-visit .cardContainer {
+.cardContainer {
   display: flex;
-  width: 78vw;
   margin: 0 auto;
   justify-content: space-around;
   overflow: hidden;
   align-items: flex-start;
+}
+@media(max-width:662px) {
+  .cardContainer {
+    width:35vw;
+  }
+}
+@media(min-width:664px) {
+.cardContainer{
+  width: 78vw;
+}
 }
 .must-visit .cards #image {
   width: 18vw;

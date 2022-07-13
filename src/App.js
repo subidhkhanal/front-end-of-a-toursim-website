@@ -9,13 +9,15 @@ import BigCarousel from './Components/Carousel/BigCarousel';
 import HomePage from './Components/HomePage/HomePage';
 import Form from './Components/Form/Form';
 import Toastify from './Components/Toast/Toast';
-import Review from './Components/Review/Review';
+// import {isMobile} from 'react-device-detect';
 import PopularPackages from './Components/PopularPackages/PopularPackages';
 import ReviewOne from './Components/Review/ReviewOne';
 
 function App() {
   return (
     <div className="App">
+      {/*if (isMobile){*/}
+      {/*return <Navbar2/>}*/}
       <Navbar />
       <HomePage />
       <PopularPackages />
@@ -26,7 +28,7 @@ function App() {
       {/*<Review />*/}
       <ReviewOne />
       <Experience />
-      <MustVisit />
+      {/*<MustVisit />*/}
       <Form />
       <Footer />
       {/*<Toastify />*/}

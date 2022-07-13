@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
         <div className="tag">
           <div className="stateTourism">
-            <div className="heading">
+            <div className="footer--heading">
               <h1 className="head3 text-2xl font-bold">Adventure Activities</h1>
               {/*<div className="line"></div>*/}
             </div>

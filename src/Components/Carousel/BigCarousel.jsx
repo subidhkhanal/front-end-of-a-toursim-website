@@ -10,9 +10,9 @@ const BigCarousel = () => {
         <div className="row">
           <div className="bigcarousel__col-md-12">
             <div className="title">
-              <img className="max-h-32" src="https://www.himalayanheli.com/images/loader-logo.png" alt="Company-Logo"/>
+              <img className="ss" src="https://www.himalayanheli.com/images/loader-logo.png" alt="Company-Logo"/>
                 <div className="he1">
-                  <h1 className="heading"> Himalayan Heli Services</h1>
+                  <h1 className="BigCarousel--heading text-[2em]"> Himalayan Heli Services</h1>
                   <h3>“HEAVEN IS A MYTH, BUT NEPAL IS REAL".</h3>
                 </div>
             </div>

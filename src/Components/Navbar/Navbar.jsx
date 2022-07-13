@@ -3,13 +3,18 @@ import './Navbar.scss';
 import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
+import MenuIcon from '@mui/icons-material/Menu';
 
 
 const Navbar = () => {
-  const[show,setShow]=useState(false)
+  const [show,setShow]=useState(false)
+  const [userIsMobile,setUserIsMobile]=useState(false)
+  useEffect(() => {
+    window.innerWidth < 836 ? setUserIsMobile(true) : setUserIsMobile(false);
+  }, [userIsMobile]);
 
   const transitionNavBar= () =>{
-    if(window.scrollY>500){
+    if(window.scrollY>300){
       setShow(true)
     }
     else{
@@ -22,10 +27,17 @@ const Navbar = () => {
   },[])
 
   return (
-    <div className={`nav-bar ${show && "nav_black"}`}>
+    <div className={`a ${show && "nav_black"}`}>
+      {userIsMobile ?
+        <div className="flex justify-end">
+          <MenuIcon className="mr-[3px]"/><h1 className="mr-[5px]">Menu</h1>
+        </div>:
+        <div className="nav-bar" >
       <div className="first-menu">
         <ul className="nav-menu">
-          <li className="without-any-link">Home</li>
+          <div className="Home items">
+            <li className="without-any-link cursor-pointer">Home</li>
+          </div>
           <div
             className="des items"
           >
@@ -60,19 +72,27 @@ const Navbar = () => {
       />
       <div className="third-menu">
         <ul className="nav-menu">
-          <div
-            className="trav items"
-          >
+          <div className="trav items">
             <li>
               Peak Climbing
               <FontAwesomeIcon icon={faCaretDown} />
             </li>
+          </div> <div className="trav items">
+            <li>
+              Blog
+              <FontAwesomeIcon icon={faCaretDown} />
+            </li>
           </div>
-          <li className="without-any-link"> Blog</li>
-          <li className="without-any-link"> About</li>
-          <li className="without-any-link"> Contact Us</li>
+          <div className="trav items">
+            <li>About US</li>
+          </div>
+          <div className="trav items">
+            <li>Contact US</li>
+          </div>
         </ul>
       </div>
+        </div>
+      }
     </div>
   );
 };

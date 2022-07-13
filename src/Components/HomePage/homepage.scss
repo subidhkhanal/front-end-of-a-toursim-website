@@ -1,8 +1,8 @@
 .home-page {
   position: relative;
-  height: 100vh;
-  min-height: 100vh;
-  padding: 100px;
+  height: 85vh;
+  min-height: 80vh;
+  padding-left: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +28,6 @@
   }
   & > .text {
     position: relative;
-    width: 30rem;
     padding: 2rem;
     mix-blend-mode: exclusion;
     border-radius: 1rem;
@@ -46,8 +45,7 @@
   & > .text a {
     display: inline-block;
     font-size: 1em;
-    background: rgba(255, 255, 255, 0.829);
-    padding: 10px 30px;
+    padding: 10px 20px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
@@ -62,11 +60,10 @@
     & > .text {
       padding: 40px;
     }
-    & > .text h2 {
-      font-size: 3em;
-    }
-    & > .text h3 {
-      //font-size: 2em;
+    @media (max-width: 824px) {
+      & > .home-page {
+        padding-left: 20px;
+      }
     }
   }
 }
