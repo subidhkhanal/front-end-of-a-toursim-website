@@ -1,3 +1,9 @@
+.MustVisitInfo {
+  margin-top: 10%;
+  padding-top: 5px;
+  text-align: center;
+}
+
 .must-visit {
   display: flex;
   background-color: whitesmoke;
@@ -31,7 +37,6 @@
   box-sizing: border-box;
   box-shadow: -3px 3px 5px 0px rgba(189, 189, 189, 0.75),
     3px -3px 5px 0px rgba(189, 189, 189, 0.75);
-  //height: 40vh;
 }
 
 .must-visit .cardContainer {
@@ -58,11 +63,6 @@
 }
 .header .info {
   margin: 0 auto;
-}
-.MustVisitInfo {
-  margin-top: 10%;
-  padding-top: 5px;
-  text-align: center;
 }
 .must-visit p {
   font-size: 1.2rem;

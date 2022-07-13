@@ -27,6 +27,12 @@
         font-size: 2.5rem;
     }
 }
+@media (min-width: 948px){
+    .popularpackages__collection{
+        display: flex;
+        justify-content: center;
+    }
+}
 .popularpackages__all-link {
     display: flex;
     align-items: center;

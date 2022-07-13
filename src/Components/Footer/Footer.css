@@ -1,6 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #FooterbarImg {
-    /*position: absolute;*/
-    /*cursor: pointer;*/
     max-height:7rem;
 }
 

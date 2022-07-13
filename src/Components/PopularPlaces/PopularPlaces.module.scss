@@ -1,10 +1,29 @@
 .cardcontainer {
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   justify-items: center;
 }
-
+@media(min-width:502px){
+  .cardcontainer {
+    grid-template-columns: repeat(2,1fr)
+  }
+}
+@media(min-width:700px){
+  .cardcontainer {
+    grid-template-columns: repeat(3,1fr)
+  }
+}
+@media(min-width:960px){
+  .cardcontainer {
+    grid-template-columns: repeat(4,1fr)
+  }
+}
+@media (min-width:1200px){
+  .cardcontainer{
+    grid-template-columns: repeat(5,1fr)
+  }
+}
 .popularplacescontainer{
   display: flex;
   align-items: center;

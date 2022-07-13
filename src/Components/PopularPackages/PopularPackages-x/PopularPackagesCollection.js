@@ -19,7 +19,7 @@ function PopularPackagesCollection() {
           </div>
           <img className="rounded-t-xl" src="https://www.kbrconstructionanddevelopers.com/chopper/images/heli1.jpg" alt=""/>
         </div>
-        <div className="popularpackagescollection__all-down  rounded-b-xl">
+        <div className="popularpackagescollection__all-down rounded-b-xl">
           <div className="popularpackagescollection__peop">
             <h6>
               <del>$950</del>
@@ -43,18 +43,22 @@ function PopularPackagesCollection() {
               <span> ( 4.5 ) </span> 24 Reviews </a>
           </div>
           <div>
-            <h3>Next Departure</h3>
+            <h3 className="pt-1">Next Departure</h3>
           </div>
           <div className="popularpackagescollection__next-down">
             <p>
-              <AccessTimeFilledIcon sx={{fontSize: 15 }}/>
-              <span>16 Jan</span>
+              <span>
+                <AccessTimeFilledIcon sx={{fontSize: 15 }}/>
+                <span>16 Jan</span>
+              </span>
               <span className="popularpackagescollection__line"></span>
               <span>  4 spaces left </span>
             </p>
             <p>
-              <AccessTimeFilledIcon sx={{fontSize: 15 }}/>
-              <span>21 Feb </span>
+              <span>
+                <AccessTimeFilledIcon sx={{fontSize: 15 }}/>
+                <span>21 Feb </span>
+              </span>
               <span className="popularpackagescollection__line"></span>
               <span>  18 spaces left </span>
             </p>

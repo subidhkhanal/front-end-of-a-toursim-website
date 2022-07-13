@@ -18,15 +18,9 @@ const BigCarousel = () => {
             </div>
           </div>
           <div className="bigcarousel__col-md-12">
-            <p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation  ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute </p>
+            <p>Air Dynasty Heli Services Pvt. Ltd. one of the largest Private Sector Helicopter Charter Companies in Nepal. with its own fleet of AS 350 Series has been providing safe, reliable and comfortable services to customers since 1993 A. D. We provide service with our fleet of helicopters that are certified to fly from 16,000 feet to 20,000 feet AMSL. Each aircraft can normally accommodate 5 adult passengers subjective of altitude and temperature at the landing site. </p>
             <br/>
-            <p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute </p>
+            <p>Air Dynasty Heli Services Pvt. Ltd. one of the largest Private Sector Helicopter Charter Companies in Nepal. with its own fleet of AS 350 Series has been providing safe, reliable and comfortable services to customers since 1993 A. D. We provide service with our fleet of helicopters that are certified to fly from 16,000 feet to 20,000 feet AMSL. Each aircraft can normally accommodate 5 adult passengers subjective of altitude and temperature at the landing site.</p>
             <div className="link">
               <button>Read More  <DoubleArrowIcon  className="mb-1.5"/></button>
             </div>

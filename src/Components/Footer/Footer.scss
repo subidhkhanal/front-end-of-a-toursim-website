@@ -1,68 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-.footer {
-  height: 500px;
+.footer--container {
+  height: 100%;
   width: 100%;
-  opacity: 0.8;
-  background-size: cover;
-  color: aliceblue;
   position: relative;
   bottom: 0;
-  padding-left: 100px;
-  padding-right: 100px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+@media(min-width:900px){
+  .footer--container{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 .right {
-  height: 480px;
+  height: fit-content;
   width: 100%;
-  display: flex;
 }
-.aboutIndia {
-  width: 35%;
-  padding-right: 40px;
+@media(min-width:948px){
+  .right {
+    display:flex;
+  }
+}
+@media(min-width:948px){
+  .aboutIndia{
+    width:35%;
+    padding-right: 40px;
+  }
 }
 .theory {
   line-height: 1.5;
-  color: black;
-  font-weight: bold;
 }
 .about {
   padding-top: 50px;
-  color: black;
 }
 .tag {
   width: 65%;
   padding-top: 50px;
-  display: flex;
-  margin-left: 20px;
 }
-.line {
-  height: 3px;
-  background-color: aliceblue;
-  width: 150px;
+@media(min-width:948px){
+  .tag{
+    display:flex;
+    margin-left: 20px;
+  }
 }
-
+@media(min-width:948px) {
+  .line {
+    height: 3px;
+    width: 150px;
+  }
+}
 .inline {
   display: flex;
   flex-direction: column;
-  //flex-wrap: wrap;
 }
-//.box {
-//  width: 190px;
-//  height: 25px;
-//}
 .stateTourism {
   width: 600px;
-}
-a {
-  color: blue;
-  font-weight: 600;
-  text-decoration: none;
-}
-//a:hover {
-//  color: black;
-//}
-.stateTourism,
-.Corportate {
-  color: black;
 }
