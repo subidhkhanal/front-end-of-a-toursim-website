@@ -26,7 +26,7 @@ function PopularPackagesCollection() {
               $900
             </h6>
           </div>
-          <a href=""> Everest Region Helicopter Tour </a>
+          <a href=""> Kanchenjunga Region Helicopter Tour </a>
           <p>
             <LocationOnIcon sx={{ fontSize: 20 }}/>
             <span>Nepal , Everest Region </span>
@@ -67,6 +67,7 @@ function PopularPackagesCollection() {
             <a
               href="#"
               className="bg-indigo-500 mx-auto py-2 px-8 text-center font-medium text-xl rounded-3xl border-0 hover:shadow-lg transition duration-200 ease-in-out hover:bg-indigo-600 text-white">View Details</a>
+
           </div>
         </div>
       </div>

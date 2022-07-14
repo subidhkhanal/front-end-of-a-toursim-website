@@ -9,7 +9,19 @@
 }
 .popularpackagescollection__col-md-4 {
     display: flex;
-
+    width: 80.33333333%;
+}
+/*@media (max-width: 414px){*/
+/*    .popularpackagescollection__col-md-4 {*/
+/*        flex: 0 0 auto;*/
+/*        width: 92.33333333%;*/
+/*    }*/
+/*}*/
+@media (max-width: 448px){
+    .popularpackagescollection__col-md-4 {
+        flex: 0 0 auto;
+        width: 95vw;
+    }
 }
 @media (min-width: 948px){
     .popularpackagescollection__col-md-4 {

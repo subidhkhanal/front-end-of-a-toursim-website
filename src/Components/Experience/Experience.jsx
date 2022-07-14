@@ -48,8 +48,8 @@ const Experience = () => {
     },
   ];
   return (
-    <div className="experience">
-      <h1 className="text-[2em] font-bold">Blog</h1>
+    <div className="experience pt-[5px]">
+      <h1 className="text-[36px]">Blog</h1>
       <p>Places of attractions, travel tips and activities to do in and around Nepal.<a href="" className="text-blue-500">Visit Our Blog</a></p>
       <div className="experienceCards">
         {demoData.map((exp, index) => (

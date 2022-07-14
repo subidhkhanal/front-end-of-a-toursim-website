@@ -27,22 +27,21 @@ const Navbar = () => {
   },[])
 
   return (
-    <div className={`a ${show && "nav_black"}`}>
+    <div className={`abc ${show && "nav_black"}`}>
       {userIsMobile ?
-        <div className="flex justify-end">
+        <div className="flex justify-end py-[10px]">
           <MenuIcon className="mr-[3px]"/><h1 className="mr-[5px]">Menu</h1>
         </div>:
         <div className="nav-bar" >
-      <div className="first-menu">
-        <ul className="nav-menu">
-          <div className="Home items">
-            <li className="without-any-link cursor-pointer">Home</li>
-          </div>
-          <div
-            className="des items"
-          >
+          <div className="first-menu">
+            <ul className="nav-menu">
+              <div className="Home items">
+                <li className="without-any-link cursor-pointer">Home</li>
+              </div>
+              <div
+                className="des items">
             <li>
-              Trekking <FontAwesomeIcon icon={faCaretDown} />
+              Trekking<FontAwesomeIcon icon={faCaretDown} className="pl-[4px]"/>
             </li>
           </div>
           <div
@@ -50,7 +49,7 @@ const Navbar = () => {
           >
             <li>
               Tour Package
-              <FontAwesomeIcon icon={faCaretDown} />
+              <FontAwesomeIcon icon={faCaretDown} className="pl-[4px]"/>
             </li>
           </div>
           <div
@@ -58,29 +57,30 @@ const Navbar = () => {
           >
             <li>
               Day Tour
-              <FontAwesomeIcon icon={faCaretDown} />
+              <FontAwesomeIcon icon={faCaretDown} className="pl-[4px]"/>
             </li>
           </div>
         </ul>
       </div>
-
-      <img
-        className="cursor-pointer"
-        src="https://www.himalayanheli.com/images/loader-logo.png"
-        alt="logo"
-        id="navbarImg"
-      />
-      <div className="third-menu">
+          <div className="h-[80px]  mr-[30px]">
+            <img
+              className="cursor-pointer"
+              src="https://www.himalayanheli.com/images/loader-logo.png"
+              alt="logo"
+              id="navbarImg"
+            />
+          </div>
+        <div className="third-menu">
         <ul className="nav-menu">
           <div className="trav items">
             <li>
               Peak Climbing
-              <FontAwesomeIcon icon={faCaretDown} />
+              <FontAwesomeIcon icon={faCaretDown} className="pl-[4px]" />
             </li>
           </div> <div className="trav items">
             <li>
               Blog
-              <FontAwesomeIcon icon={faCaretDown} />
+              <FontAwesomeIcon icon={faCaretDown} className="pl-[4px]"/>
             </li>
           </div>
           <div className="trav items">

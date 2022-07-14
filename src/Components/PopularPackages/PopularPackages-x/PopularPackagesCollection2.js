@@ -26,7 +26,7 @@ function PopularPackagesCollection() {
               $900
             </h6>
           </div>
-          <a href=""> Everest Region Helicopter Tour </a>
+          <a href=""> Annapurna Region Helicopter Tour </a>
           <p>
             <LocationOnIcon sx={{ fontSize: 20 }}/>
             <span>Nepal , Everest Region </span>

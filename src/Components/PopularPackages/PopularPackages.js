@@ -2,6 +2,8 @@ import React from 'react';
 import './PopularPackages.css'
 import PopularPackagesCollection from './PopularPackages-x/PopularPackagesCollection'
 import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
+import PopularPackagesCollection2 from './PopularPackages-x/PopularPackagesCollection2';
+import PopularPackagesCollection3 from './PopularPackages-x/PopularPackagesCollection3';
 
 function PopularPackages() {
   return (
@@ -15,9 +17,9 @@ function PopularPackages() {
         </div>
         <div className="mx-5">
           <div className="popularpackages__collection">
-            <PopularPackagesCollection  />
             <PopularPackagesCollection />
-            <PopularPackagesCollection/>
+            <PopularPackagesCollection2 />
+            <PopularPackagesCollection3 />
           </div>
         </div>
         <div className="popularpackages__col-md-12">
