@@ -17,9 +17,9 @@ function PopularPackagesCollection() {
             <span>45%</span>
             Off
           </div>
-          <img className="rounded-t-xl" src="https://www.kbrconstructionanddevelopers.com/chopper/images/heli1.jpg" alt=""/>
+          <img className="rounded-t-3xl" src="https://www.kbrconstructionanddevelopers.com/chopper/images/heli1.jpg" alt=""/>
         </div>
-        <div className="popularpackagescollection__all-down rounded-b-xl">
+        <div className="popularpackagescollection__all-down rounded-b-3xl">
           <div className="popularpackagescollection__peop">
             <h6>
               <del>$950</del>
@@ -64,9 +64,7 @@ function PopularPackagesCollection() {
             </p>
           </div>
           <div className="flex justify-center">
-            <a
-              href="#"
-              className="bg-indigo-500 mx-auto py-2 px-8 text-center font-medium text-xl rounded-3xl border-0 hover:shadow-lg transition duration-200 ease-in-out hover:bg-indigo-600 text-white">View Details</a>
+            <button className="bg-indigo-500 mx-auto py-2 px-8 text-center text-xl rounded-3xl border-0 hover:shadow-lg transition duration-200 ease-in-out hover:bg-indigo-600 text-white">View Details</button>
           </div>
         </div>
       </div>
