@@ -48,16 +48,16 @@ function PopularPackagesCollection() {
           <div className="popularpackagescollection__next-down">
             <p>
               <span>
-                <AccessTimeFilledIcon sx={{fontSize: 15 }}/>
-                <span>16 Jan,2022</span>
+                <AccessTimeFilledIcon className="mb-[3px]" sx={{fontSize: 15 }}/>
+                <span>16 Jan</span>
               </span>
               <span className="popularpackagescollection__line"></span>
               <span>  4 spaces left </span>
             </p>
             <p>
               <span>
-                <AccessTimeFilledIcon sx={{fontSize: 15 }}/>
-                <span>21 Feb,2022</span>
+                <AccessTimeFilledIcon className="mb-[3px]" sx={{fontSize: 15 }}/>
+                <span>21 Feb</span>
               </span>
               <span className="popularpackagescollection__line"></span>
               <span>  18 spaces left </span>
